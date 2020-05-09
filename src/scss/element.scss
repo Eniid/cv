@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color: $bgcl; 
+    font-family: $cf; 
+    font-size: 16px;
+    height: 100%;
+}
+
+
+@media (max-width:800px) {
+    main {
+        position: relative; 
+        top : -10px; 
+    }
+}
+    
+
+h1 { 
+    background-color: $mcd; 
+    color: #fff; 
+    height: 250px; 
+    text-align: center; 
+    padding : 150px 50px 10px 50px; 
+    font-size: 2.5rem;
+    }
+
+
+    @media (max-width:975px) {
+        h1 {
+            font-size: 2rem; 
+    }
+        }
+
+    @media (max-width:350px) {
+        h1 {
+            font-size: 1.7rem; 
+        }
+    }
+
+    a {
+        color: $mcd;
+    }
+
+    a:hover {
+        color: $mcl;
+    }
+
+    
+h2 {
+    font-weight: lighter;
+    font-family: $cf;
+    letter-spacing: .1rem;
+
+}
+
+
+em {
+    font-family: $cf; 
+    display: block; 
+    font-size: 30px; 
+}
+
+em:after { /* contenu ORNEMENT (suite dans componente ornement */
+    content: "§"; 
+    display: block;
+    transform: rotate(90deg); 
+    font-size: 25px; 
+    padding: 15px; 
+}
+
+
+footer h2 {
+    display: inline;
+    font-size: .5rem;
+    letter-spacing: .1rem;
+    font-family: $rf;
+    text-transform: uppercase;
+    background-color: $bgcd;
+    z-index: 10;
+    padding: 0 5px;
+    position: relative;
+    top: 57px;
+    color: #fff;
+}
+
+footer {
+    background-color: $bgcd;  
+    height: 200px;
+    text-align: center; 
+}
+
+.contacte h2 {
+    font-size: 2em; 
+    letter-spacing: 1.5px;
+}
+
+
+.comp h2 {
+    font-size: 2em;
+}
+
+.mesamies h2 {
+    text-align: center; 
+    font-size: 45px; 
+    padding-bottom: 10px; 
+}
+
+
+.experiance h2, .formation h2 {
+    background-size: cover;
+    color: #fff; 
+    text-align: center; 
+    font-size: 40px;
+    padding : 200px 0px; 
+    margin-top: 50px; 
+    text-shadow: 1px 1px 1px #0007;
+}
+
+.experiance h2 {
+    background-image:  url("../img/bureau.jpg");
+}
+
+
+.formation h2 {
+        background-image:  url("../img/tableau.jpg");
+}

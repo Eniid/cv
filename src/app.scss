@@ -1,0 +1,13 @@
+//@Aureur : Céline Everaert 
+//@Tested : GoogleChrome, Opera, Saphari, Fierfox et Edge
+
+//* Font 
+@font-face { 	font-family: "centaur"; 	src: url('../font/CENTAUR.ttf'); } 
+
+
+@import "scss/settings.scss";
+@import "scss/generic.scss";
+@import "scss/tools.scss";
+@import "scss/element.scss";
+@import "scss/objects.scss";
+@import "scss/compnents.scss";

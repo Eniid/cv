@@ -1,0 +1,140 @@
+.media {
+    position: relative; 
+    top : -190px; 
+    text-align:  center; 
+}
+
+
+/**** Image move ****/ 
+
+.infog {
+    background-image: url(../img/ordi.jpg);
+    background-position: center;
+    background-size: 100%; 
+    transition: 10s; 
+}
+
+.classe {
+    background-image: url(../img/ecole.jpg);
+    background-position: center;
+    background-size: 100%; 
+    transition: 10s; 
+}
+
+.droit {
+    background-image: url(../img/dt.jpg);
+    background-position: center;
+    background-size: 100%; 
+    transition: 10s; 
+}
+
+.sinfo  {
+    background-image: url(../img/image.jpg);
+    background-position: center;
+    background-size: 100%;
+    transition: 10s; 
+}
+
+.elec { 
+    background-image: url(../img/vote.jpg);
+    background-position: center;
+    background-size: 100%;  
+    transition: 10s; 
+    
+}
+
+.sinfo:hover, .classe:hover, .infog:hover, .droit:hover, .elec:hover {
+    background-size: 120%; 
+    transition: 10s; 
+}
+
+
+
+/** CONTACTES **/ 
+
+
+.info {
+    background-color: $mcl; 
+    color : #fff; 
+    text-align: center; 
+    font-family: $rf; 
+    line-height: 1.5rem;
+}
+
+.info p {
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.contacte a { 
+    color: #fff;
+}
+
+
+
+  /** COMPETANCES **/ 
+
+.comp {
+    background-color: #9A4A00;
+    color: #fff; 
+    text-align: center; 
+}
+
+.competancetype {
+    letter-spacing: 2px;
+    font-family: roboto;
+    font-size: 12px; 
+    padding: 5px; 
+}
+
+.divmain { 
+    background-color: #22254A; 
+    color: #fff; 
+    font-family: $rf;
+    letter-spacing: 1px;
+}
+
+
+.pic { 
+    background-color: #111;
+}
+
+
+.mc {
+    background-color: #fff; 
+    transition: 1s; 
+    font-family: $rf;
+    text-transform: uppercase;
+    font-size: .75rem;
+    line-height: 1.7em;
+    letter-spacing: .07rem;
+}
+
+.mc:hover {
+    background-color: #ddd; 
+    transition: 1s; 
+}
+
+.logicielles h2 { 
+    text-align: center; 
+    font-size: 45px;     
+}
+
+
+//*annime//
+
+.annimation {
+    opacity:0;
+    transform: translateY(50px);
+}
+
+.animation_suite {
+    opacity:1;
+    transform: translateY(0px);
+    transition: 1s;
+}
+
+.liste a {
+    color: black;
+    text-decoration: none;
+}

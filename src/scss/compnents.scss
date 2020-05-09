@@ -1,0 +1,278 @@
+
+/***** Ornements ******/ 
+
+
+/* lignes ornementales */
+
+.separation {
+    display: flex; 
+    flex: 1;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+
+header .separation {
+    margin-top: -110px;
+}
+
+
+.separation::before {
+        display: block; 
+        content:'';
+        flex: 1; 
+        align-self: center; 
+        border-bottom: 1px solid ; 
+        height: 4px;
+}
+
+.separation::after {display: block; 
+        content:'';
+        flex: 1; 
+        align-self: center; 
+        border-bottom: 1px solid ; 
+        height: 4px;
+}
+
+
+
+
+/** CONTACTES **/ 
+
+.formation, .experiance {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+
+.contacte {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: center; 
+    align-self: center; 
+    width: 85%;
+    max-width: 1300px; 
+    margin: 0 auto; 
+    position: relative; 
+    top : -120px; 
+}
+
+.info {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    width: 50%;
+}
+
+
+.moi { 
+    width: 50%; 
+    height : 50%; 
+}
+
+
+
+
+  /** contenu info **/ 
+
+
+.contacte h2:after {
+    content: "§"; 
+    display: block; 
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin: 10px 0px 20px 0px; 
+    line-height: 25px;
+}
+
+
+
+  /** Info pour téléphone **/ 
+
+@media (max-width:750px) {
+    .media {
+    position: relative; 
+    top : -80px; 
+    }
+    .contacte {
+    width: 100%; 
+    flex-direction: column-reverse;
+    position: relative; 
+    top : -50px; 
+    }
+    .moi {
+    width: 100%;
+    }
+    
+    .info {
+    width: 100%; 
+    padding: 10rem 0% 
+    }
+    
+}
+
+
+    /******************/
+   /****** MAINE *****/
+/******************/
+
+
+
+  /** COMPETANCES **/ 
+
+.comp {
+    width: 100%; 
+    max-width: 1550px; 
+    margin: 0 auto; 
+    padding : 5em 0px; 
+}
+
+
+.note { 
+padding-bottom : 30px
+}
+
+  /** COMPETANCES **/ 
+
+  /** interieur **/ 
+
+.box1, .box2 {
+    width: 100%; 
+    max-width: 1550px; 
+    display: flex; 
+    justify-content: center; 
+    align-self: center; 
+    text-align: center; 
+}
+
+.box2 {
+    flex-direction: row-reverse; 
+}
+
+.divmain { 
+    width: 50%; 
+    padding: 300px 0px;
+}
+
+
+
+.cont { 
+    width: 50%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+
+.pic { 
+    flex-grow: 1; 
+}
+
+
+.mc {
+    flex-grow: 1;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 1rem 6rem;
+}
+
+
+
+
+@media (max-width:750px) {
+    .box1, .box2 {
+        flex-direction: column; 
+    }
+    
+    .divmain, .cont {
+        width: 100%
+    }
+    
+    .pic, .mc {
+        height: 300px; 
+    }
+    
+}
+
+
+
+  /*** logicielles ***/
+
+.logicielles { 
+    width: 85%; 
+    margin: 0 auto; 
+    padding-top: 80px; 
+}
+
+
+
+.liste {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 140px; 
+}
+
+
+.logicielles p {
+    padding: 10px; 
+    text-align: center; 
+}
+
+
+.logicielles p img {
+    width: 100px; 
+    border-radius: 100px;
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+
+
+  /*** voir aussi ***/ 
+
+.mesamies { 
+    background-color: #fff; 
+}
+
+.sizeblock { 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mesamies p {
+    width: 30%; 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 25px;
+}
+
+
+.mesamies {
+    padding: 80px 0px; 
+}
+
+.mesamies p img {
+    display: block; 
+    width: 100%; 
+    padding: 20px 0px; 
+}
+
+
+
+
+.social {
+    border-bottom: .5px rgba(128, 128, 128, 0.527) solid;
+    border-top: .5px rgba(128, 128, 128, 0.527) solid;
+    width: 200px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+    top: 50px;
+}
+
