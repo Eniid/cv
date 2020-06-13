@@ -11,13 +11,6 @@
     margin: 0 auto;
     margin-bottom: 10px;
     transition: 1s;
-
-}
-
-.animation_suite.separation {
-    width: 85%;
-
-
 }
 
 
@@ -282,3 +275,34 @@ header .separation {
     border-bottom: .5px rgba(128, 128, 128, 0.527) solid;
 }
 
+
+
+
+.animation_suite.separation {
+    width: 85%;
+}
+
+
+//*annime//
+
+.formation .annimation {
+    opacity:0;
+    transform: translateY(50px);
+}
+
+.formation  .animation_suite {
+    opacity:1;
+    transform: translateY(0px);
+    transition: transform 1s;
+}
+
+.experiance .annimation {
+    opacity:0;
+    transform: translateY(50px);
+}
+
+.experiance  .animation_suite {
+    opacity:1;
+    transform: translateY(0px);
+    transition: transform 1s;
+}

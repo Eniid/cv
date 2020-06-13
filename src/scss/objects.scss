@@ -126,29 +126,6 @@
 }
 
 
-//*annime//
-
-.formation .annimation {
-    opacity:0;
-    transform: translateY(50px);
-}
-
-.formation  .animation_suite {
-    opacity:1;
-    transform: translateY(0px);
-    transition: transform 1s;
-}
-
-.experiance .annimation {
-    opacity:0;
-    transform: translateY(50px);
-}
-
-.experiance  .animation_suite {
-    opacity:1;
-    transform: translateY(0px);
-    transition: transform 1s;
-}
 
 .liste a {
     color: black;
