@@ -5,47 +5,52 @@
 }
 
 
+.ornementb {
+    padding: 1rem;
+}
+
+
 /**** Image move ****/ 
 
 .infog {
     background-image: url(../img/ordi.jpg);
     background-position: center;
     background-size: 100%; 
-    transition: 10s; 
+    transition: background-size 10s; 
 }
 
 .classe {
     background-image: url(../img/ecole.jpg);
     background-position: center;
     background-size: 100%; 
-    transition: 10s; 
+    transition: background-size 10s; 
 }
 
 .droit {
     background-image: url(../img/dt.jpg);
     background-position: center;
     background-size: 100%; 
-    transition: 10s; 
+    transition: background-size 10s; 
 }
 
 .sinfo  {
     background-image: url(../img/image.jpg);
     background-position: center;
     background-size: 100%;
-    transition: 10s; 
+    transition: background-size 10s; 
 }
 
 .elec { 
     background-image: url(../img/vote.jpg);
     background-position: center;
     background-size: 100%;  
-    transition: 10s; 
+    transition: background-size 10s; 
     
 }
 
 .sinfo:hover, .classe:hover, .infog:hover, .droit:hover, .elec:hover {
     background-size: 120%; 
-    transition: 10s; 
+    transition: background-size 10s; 
 }
 
 
@@ -112,7 +117,7 @@
 
 .mc:hover {
     background-color: #ddd; 
-    transition: 1s; 
+    transition: background-color 1s; 
 }
 
 .logicielles h2 { 
@@ -123,15 +128,26 @@
 
 //*annime//
 
-.annimation {
+.formation .annimation {
     opacity:0;
     transform: translateY(50px);
 }
 
-.animation_suite {
+.formation  .animation_suite {
     opacity:1;
     transform: translateY(0px);
-    transition: 1s;
+    transition: transform 1s;
+}
+
+.experiance .annimation {
+    opacity:0;
+    transform: translateY(50px);
+}
+
+.experiance  .animation_suite {
+    opacity:1;
+    transform: translateY(0px);
+    transition: transform 1s;
 }
 
 .liste a {

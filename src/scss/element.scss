@@ -20,11 +20,11 @@ body {
     
 
 h1 { 
+    height: 250px; 
+    padding : 150px 50px 10px 50px; 
     background-color: $mcd; 
     color: #fff; 
-    height: 250px; 
     text-align: center; 
-    padding : 150px 50px 10px 50px; 
     font-size: 2.5rem;
     }
 
@@ -75,16 +75,16 @@ em:after { /* contenu ORNEMENT (suite dans componente ornement */
 
 footer h2 {
     display: inline;
+    position: relative;
+    top: 57px;
+    padding: 0 5px;
     font-size: .5rem;
     letter-spacing: .1rem;
     font-family: $rf;
     text-transform: uppercase;
     background-color: $bgcd;
-    z-index: 10;
-    padding: 0 5px;
-    position: relative;
-    top: 57px;
     color: #fff;
+    z-index: 10;
 }
 
 footer {
@@ -110,21 +110,21 @@ footer {
 }
 
 
-.experiance h2, .formation h2 {
+.experiancetitle, .formationtitle {
     background-size: cover;
-    color: #fff; 
-    text-align: center; 
-    font-size: 40px;
     padding : 200px 0px; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 40px;
     margin-top: 50px; 
     text-shadow: 1px 1px 1px #0007;
 }
 
-.experiance h2 {
+.experiancetitle {
     background-image:  url("../img/bureau.jpg");
 }
 
 
-.formation h2 {
+.formationtitle {
         background-image:  url("../img/tableau.jpg");
 }
